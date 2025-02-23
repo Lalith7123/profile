@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-5 position-relative">
+        <div class="container">
+            <h1>Innovate With Lalith!</h1>
+            <p>Exploring Ideas, Building Projects, and Shaping the Future</p>
+        </div>
+    </header>
+    
+    <div class="container my-5">
+        <section id="about" class="mb-5">
+            <h2 class="text-center">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="images/Capture.PNG" alt="Profile Image" class=" img-fluid" width="200">
+                </div>
+                <div class="col-md-8">
+                    <p>I am an experienced Java Backend Developer with 2 years of expertise in building scalable and efficient backend applications using Spring Boot, REST APIs, and microservice architechture that includes gateway and eureka server.</p>
+                    <p>With hands-on experience in MongoDB, PostgreSQL, and AWS services (ECS, S3, EC2, CloudWatch), github versioning and I aware of automating deployments using CI/CD pipelines</p>
+                </div>
+            </div>
+        </section>
+        <section id="Skills" class="mb-5">
+            <h3 class="text-center mb-5">Background Skills</h3>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <ul>
+                        <li><strong>Backend Development:</strong> Java, Spring Boot, RESTful APIs, Microservices, Spring Security</li>
+                        <li><strong>Frontend Development:</strong> HTML, CSS, JavaScript, Angular</li>
+                        <li><strong>Database Management:</strong> MongoDB, PostgreSQL, MySQL</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <ul>
+                        <li><strong>Cloud & DevOps:</strong> AWS (ECS, S3, DynamoDB, CloudWatch alarms, Pipelines), CI/CD Pipelines</li>
+                        <li><strong>Automation & Scripting:</strong> PowerShell, Shell Scripting</li>
+                        <li><strong>Security & Performance Optimization:</strong> API Security, System Monitoring</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="mb-7">
+            <h2 class="text-center">My Ideas & Projects</h2>
+        
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title">Client Website System</h3>
+                                <p><strong>Tech Stack:</strong> Java, Spring Boot, microservice architecture, RabbitMQ, AWS</p>
+                                <ul>
+                                    <li>working in a microservices architecture with API Gateway and RabbitMQ where bunch of users would hit the API regularly.</li>
+                                    <li>Used the feature of JWT authentication in single service which is front of all other services to make sure the authentication and authorization is happend efficiently with JWT implementation.</li>
+                                    <li>Debug the bugs found inside the code where some users may suffers.</li>
+                                    <li>Deployed on AWS with high availability since the client has customers world wide.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-6">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title">Online Hotel Management System</h3>
+                                <p><strong>Tech Stack:</strong> Java, Spring Boot, Angular, MongoDB, AWS</p>
+                                <ul>
+                                    <li>Built a online hotel management system using Java with Spring Boot for backend, Angular for frontend, and MongoDB as the database to ensure scalability and high performance.</li>
+                                    <li>Real-time features such as room availability checking, booking management, automated notifications, and secure payment gateway integration to enhance user experience.</li>                                    </li>
+                                    <li>Brief invoice sent to the customer upon payment completion for their booking.</li>                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="swiper mySwiper mt-4">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/hotel/hotel-front.PNG" class="img-fluid" alt="Hotel Management Project 1"></div>
+                    <div class="swiper-slide"><img src="images/hotel/login-page.PNG" class="img-fluid" alt="Hotel Management Project 2"></div>
+                    <div class="swiper-slide"><img src="images/hotel/check-availablity.PNG" class="img-fluid" alt="Hotel Management Project 3"></div>
+                    <div class="swiper-slide"><img src="images/hotel/bill-page.PNG" class="img-fluid" alt="Hotel Management Project 4"></div>
+                    <div class="swiper-slide"><img src="images/hotel/dish-page.PNG" class="img-fluid" alt="Hotel Management Project 5"></div>
+                    <div class="swiper-slide"><img src="images/hotel/checkout-page.PNG" class="img-fluid" alt="Hotel Management Project 6"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>    
+        
+            <div class="container mt-4">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title">Dental Shop</h3>
+                                <p><strong>Tech Stack:</strong> HTML, CSS, JS</p>
+                                <ul>
+                                    <li>Built a real-time advertisement for the dental client.</li>
+                                    <li>Used Bootstrap for a responsive site.</li>
+                                    <li><a href="https://lalith7213.github.io/dental-site/">Click here to visit</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-6">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title">Tea Shop</h3>
+                                <p><strong>Tech Stack:</strong> HTML, CSS, JS</p>
+                                <ul>
+                                    <li>Built a site for Tea Shop for promotion purposes.</li>
+                                    <li>Used third-party plugins to enhance responsive design.</li>
+                                    <li><a href="https://lalith7123.github.io/demoTeaShop.com/">Click here to visit</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+    
+        <section id="goals" class="mb-5">
+            <h2 class="text-center">Future Goals</h2>
+            <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">Master Spring Boot microservices and event-driven architecture.</li>
+                <li class="list-group-item">Deepen cloud expertise in AWS infrastructure.</li>
+                <li class="list-group-item">Enhance security with OAuth 2.0 and JWT authentication.</li>
+                <li class="list-group-item">To Gain more knowledge as a Backend Developer</li>
+            </ul>
+        </section>
+    
+        <section id="contact" class="mb-5">
+            <h2 class="text-center mb-5">Contact Me</h2>
+            <p>Email: lalithmiraculous@gmail.com</p>
+            <p>Mobile: 91+ 9344393720</p>
+            <p>Location: Chennai, TamilNadu, India</p>
+            <p>GitHub: <a href="https://github.com/Lalith7123" target="_blank">Lalith-github</a></p>
+            <p>Linked In: <a href="https://www.linkedin.com/in/lalith-kumar-profile/" target="_blank">Lalith-linkedIn</a></p>
+        </section>
+    </div>
+    
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Laith's site!. Demo -> All rights reserved.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            loop: true
+        });
+    </script>
+</body>
+</html>

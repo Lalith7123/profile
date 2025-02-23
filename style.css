@@ -1,0 +1,95 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* font-family: aptos; */
+    margin: 0;
+    padding: 0;
+    /* background-color: #f8f9fa; */
+    background-color: rgb(186, 204, 219);
+}
+
+/* Header */
+header {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    section {
+        padding: 30px;
+    }
+}
+.flashit{
+    
+    -webkit-animation: flash linear 1s infinite;
+    animation: flash linear 1s infinite;
+}
+@-webkit-keyframes flash {
+    0% { opacity: 1; } 
+    50% { opacity: .1; } 
+    100% { opacity: 1; }
+}
+@keyframes flash {
+    0% { opacity: 1; } 
+    50% { opacity: .1; } 
+    100% { opacity: 1; }
+}
+.swiper-slide img {
+    max-width: 80%;  /* Reduce width to 80% of container */
+    max-height: 250px;  /* Adjust height to your preference */
+    display: block;  /* Centering fix */
+    margin: 0 auto;  /* Center images horizontally */
+    border-radius: 10px;  /* Optional: add rounded corners */
+}
+.mySwiper {
+    max-width: 90%; /* Reduce width */
+    max-height: 300px; /* Adjust height */
+    margin: 0 auto; /* Center it */
+}
